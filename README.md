@@ -14,3 +14,8 @@ CREATE TABLE `社員マスタ` (
   `生年月日` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
+```sql
+ALTER TABLE `社員マスタ`
+  ADD PRIMARY KEY (`社員コード`);
+COMMIT;
+```
